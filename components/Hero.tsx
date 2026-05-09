@@ -74,7 +74,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/CV-Linda-Ratna-Kholifah.pdf"
+              href="/CV_LindaRatnaKholifah.pdf"
               download
               className={styles.btnCV}
             >
