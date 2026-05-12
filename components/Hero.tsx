@@ -61,19 +61,22 @@ export default function Hero() {
           </h1>
 
           <p className={styles.desc}>
-            Computer Engineering graduate from Diponegoro University with a strong interest in building web applications and real-time systems. I have hands-on experience in frontend development, database systems, and IoT-based monitoring projects, including a furnace monitoring and control system for academic research use. I enjoy turning ideas into functional systems, solving technical problems, and continuously learning new technologies in software development.
+            Computer Engineering fresh graduate with an interest in web development.
+            Experienced in building web applications using React.js,
+            CodeIgniter, HTML, CSS, JavaScript, and API integration to create
+            interactive and responsive applications. Skilled in UI design using
+            Figma and passionate about continuous learning and contributing to
+            technology development.
           </p>
 
           <div className={styles.btnGroup}>
             <a href="#projects" className={styles.btnPrimary}>
               View Projects
             </a>
-            <a
-              href="/CV_Linda Ratna Kholifah.pdf"
-              download
-              className={styles.btnCV}
-            >
-              Download CV
+
+            {/* REPLACED BUTTON */}
+            <a href="#contact" className={styles.btnCV}>
+              Contact Me
             </a>
           </div>
 

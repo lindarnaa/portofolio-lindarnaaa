@@ -40,9 +40,10 @@ const skills = [
     color: 'rgba(255,214,0,0.12)',
     accent: 'var(--c2)',
     tags: [
-      'Git',
-      'GitHub',
+      'Git/Github',
+      'Docker',
       'Vercel',
+      'Firebase',
     ],
   },
 
