@@ -6,8 +6,8 @@ const internship = [
     company: 'Dinas Komunikasi dan Informatika',
     period: 'Jan 2025',
     desc: [
-      'Developed responsive user interfaces using PHP (CodeIgniter) and Bootstrap based on UI/UX design specifications.',
-      'Collaborated with backend teams to integrate features and manage data flow.',
+      'Developed responsive user interfaces using PHP (CodeIgniter) and Bootstrap based on UI/UX design specifications, with a focus on improving user experience and ease of navigation.',
+      'Designed and developed application features from the ground up, including data flow and system logic implementation, contributing to the successful delivery of 7 new functionalities.',
     ],
   },
   {

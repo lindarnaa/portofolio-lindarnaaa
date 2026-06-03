@@ -61,7 +61,7 @@ export default function Hero() {
           </h1>
 
           <p className={styles.desc}>
-Computer Engineering fresh graduate with interests in Data Analytics and Web Development. Experienced in analyzing data using Power BI, SQL, Excel, and Python to generate actionable business insights, as well as developing responsive web applications using React.js, CodeIgniter, JavaScript, and REST APIs. Passionate about transforming data into meaningful solutions and continuously learning new technologies.
+             Computer Engineering graduate passionate about technology, data, and problem-solving. I enjoy developing web applications, exploring data insights, and creating solutions that deliver meaningful impact through technology.
           </p>
 
           <div className={styles.btnGroup}>
