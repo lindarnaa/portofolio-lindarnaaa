@@ -102,7 +102,7 @@ export default function Hero() {
           <div className={styles.imageBg}></div>
 
           <img
-            src="/linda.png"
+            src="/ratna.png"
             alt="Linda Ratna"
             className={styles.image}
           />
