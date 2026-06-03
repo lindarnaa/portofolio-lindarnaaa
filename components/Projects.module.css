@@ -211,3 +211,16 @@
     padding: 5rem 1.5rem;
   }
 }
+
+.category {
+  margin-bottom: 5rem;
+}
+
+.categoryTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  color: #fff;
+  border-left: 4px solid var(--c1);
+  padding-left: 1rem;
+}

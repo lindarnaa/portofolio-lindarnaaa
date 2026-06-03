@@ -61,12 +61,7 @@ export default function Hero() {
           </h1>
 
           <p className={styles.desc}>
-            Computer Engineering fresh graduate with an interest in web development.
-            Experienced in building web applications using React.js,
-            CodeIgniter, HTML, CSS, JavaScript, and API integration to create
-            interactive and responsive applications. Skilled in UI design using
-            Figma and passionate about continuous learning and contributing to
-            technology development.
+Computer Engineering fresh graduate with interests in Data Analytics and Web Development. Experienced in analyzing data using Power BI, SQL, Excel, and Python to generate actionable business insights, as well as developing responsive web applications using React.js, CodeIgniter, JavaScript, and REST APIs. Passionate about transforming data into meaningful solutions and continuously learning new technologies.
           </p>
 
           <div className={styles.btnGroup}>

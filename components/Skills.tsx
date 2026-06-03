@@ -2,62 +2,60 @@ import styles from './Skills.module.css'
 
 const skills = [
   {
-    icon: '⚛',
-    name: 'Frontend',
-    desc: 'Modern, responsive, and user-friendly interfaces.',
-    color: 'rgba(0,194,255,0.12)',
-    accent: 'var(--c3)',
+    name: 'Data Analytics',
+    desc: 'Data cleaning, analysis, visualization, and business intelligence reporting.',
+    color: 'rgba(255,214,0,0.12)',
+    accent: 'var(--c2)',
     tags: [
-      'React.js',
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'Tailwind CSS',
-      'Bootstrap',
+      'Power BI',
+      'Excel',
+      'Google Sheets',
+      'SQL',
+      'Python',
     ],
   },
 
   {
-    icon: '⚙',
-    name: 'Backend',
-    desc: 'Scalable server, database, and API development.',
+    name: 'Frontend Development',
+    desc: 'Building responsive and interactive user interfaces.',
+    color: 'rgba(0,194,255,0.12)',
+    accent: 'var(--c3)',
+    tags: [
+      'React.js',
+      'Next.js',
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'Tailwind CSS',
+    ],
+  },
+
+  {
+    name: 'Backend Development',
+    desc: 'Developing APIs, databases, and server-side applications.',
     color: 'rgba(123,47,255,0.12)',
     accent: 'var(--c4)',
     tags: [
       'PHP',
-      'Node.js',
-      'CodeIgniter',
       'Laravel',
+      'CodeIgniter',
+      'Node.js',
       'MySQL',
       'REST API',
     ],
   },
 
   {
-    icon: '☁',
-    name: 'DevOps & Cloud',
-    desc: 'Version control, deployment, dan workflow development.',
-    color: 'rgba(255,214,0,0.12)',
-    accent: 'var(--c2)',
-    tags: [
-      'Git/Github',
-      'Docker',
-      'Vercel',
-      'Firebase',
-    ],
-  },
-
-  {
-    icon: '◈',
     name: 'Tools & Workflow',
-    desc: 'Collaboration and design tools for optimal productivity.',
+    desc: 'Collaboration, version control, and productivity tools.',
     color: 'rgba(255,77,0,0.12)',
     accent: 'var(--c1)',
     tags: [
+      'Git/GitHub',
       'Figma',
       'Postman',
       'VS Code',
-      'Agile/Scrum/Waterfall',
+      'Agile & Scrum',
     ],
   },
 ]
@@ -67,26 +65,37 @@ export default function Skills() {
     <section className={styles.section} id="skills">
       <div className={styles.header}>
         <span className={styles.label}>Tech Stack</span>
-        <h2 className={styles.title}>Skills &amp; Tools</h2>
+        <h2 className={styles.title}>Skills & Tools</h2>
         <p className={styles.subtitle}>
-          Technologies I use daily to build fast, reliable, and modern digital products.
+          Combining data analytics and software development skills to build
+          data-driven solutions and digital products.
         </p>
       </div>
 
       <div className={styles.grid}>
         {skills.map((s) => (
           <div key={s.name} className={styles.card}>
-            <div className={styles.iconWrap} style={{ background: s.color }}>
-              <span>{s.icon}</span>
+            <div
+              className={styles.category}
+              style={{ background: s.color }}
+            >
+              {s.name}
             </div>
-            <div className={styles.cardName}>{s.name}</div>
+
             <p className={styles.cardDesc}>{s.desc}</p>
+
             <div className={styles.tags}>
-              {s.tags.map(t => (
-                <span key={t} className={styles.tag}>{t}</span>
+              {s.tags.map((tag) => (
+                <span key={tag} className={styles.tag}>
+                  {tag}
+                </span>
               ))}
             </div>
-            <div className={styles.accentLine} style={{ background: s.accent }} />
+
+            <div
+              className={styles.accentLine}
+              style={{ background: s.accent }}
+            />
           </div>
         ))}
       </div>

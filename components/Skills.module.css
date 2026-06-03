@@ -117,3 +117,17 @@
 @media (max-width: 768px) {
   .section { padding: 5rem 1.5rem; }
 }
+
+.category {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  margin-bottom: 1rem;
+}
