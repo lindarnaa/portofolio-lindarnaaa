@@ -61,7 +61,7 @@ export default function Hero() {
           </h1>
 
           <p className={styles.desc}>
-             Computer Engineering graduate passionate about technology, data, and problem-solving. I enjoy developing web applications, exploring data insights, and creating solutions that deliver meaningful impact through technology.
+             Computer Engineering graduate passionate about technology, data, and problem-solving. I enjoy interactive developing web applications, exploring data insights, and creating solutions that deliver meaningful impact through technology.
           </p>
 
           <div className={styles.btnGroup}>
@@ -102,7 +102,7 @@ export default function Hero() {
           <div className={styles.imageBg}></div>
 
           <img
-            src="/ratna.png"
+            src="/kholifah.png"
             alt="Linda Ratna"
             className={styles.image}
           />

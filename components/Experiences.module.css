@@ -131,3 +131,114 @@
     padding: 1rem 1rem 1rem 1.4rem;
   }
 }
+
+/* ================= LIST ================= */
+
+.list {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.list li {
+  margin-bottom: 0.7rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.8;
+  font-size: 0.93rem;
+}
+
+/* ================= IMAGE GALLERY ================= */
+
+.imageGrid {
+  margin-top: 1.6rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.imageCard {
+  width: 240px;
+  aspect-ratio: 1 / 1;
+
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  background: rgba(255,255,255,.03);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  transition: all .35s ease;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+
+  position: relative;
+}
+
+.imageCard:hover{
+  transform: translateY(-6px);
+
+  border-color: var(--c1);
+
+  box-shadow:
+      0 18px 40px rgba(0,0,0,.45);
+}
+
+.image{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+  object-position:center;
+
+  transition:transform .45s ease;
+}
+
+.imageCard:hover .image{
+  transform:scale(1.08);
+}
+
+/* Optional gradient overlay */
+
+.imageCard::after{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background:linear-gradient(
+      to top,
+      rgba(0,0,0,.25),
+      transparent 45%
+  );
+
+  opacity:0;
+  transition:.35s;
+}
+
+.imageCard:hover::after{
+  opacity:1;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+  .imageGrid{
+      justify-content:center;
+      gap:14px;
+  }
+
+  .imageCard{
+      width:180px;
+  }
+
+}
+
+@media (max-width:480px){
+
+  .imageCard{
+      width:150px;
+  }
+
+}

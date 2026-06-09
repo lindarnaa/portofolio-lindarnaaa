@@ -7,7 +7,7 @@ const dataProjects = [
     image: '/pizza-dashboard.png',
     tags: ['Excel'],
     repo: 'https://drive.google.com/drive/folders/1VHY5EwRjqYbqW9W0Oi022YLNSz67oG0f?usp=drive_link',
-    ppt: '/pizza sales.pdf',
+    ppt: '/pizza_sales.pdf',
   },
   {
     title: 'Supermarket Sales Dashboard',
@@ -15,7 +15,7 @@ const dataProjects = [
     image: '/supermarket-dashboard.png',
     tags: ['Power BI'],
     repo: 'https://drive.google.com/drive/folders/1rEnpBcA5kEF-QL8XN2kLf89RK7f_KbuG?usp=drive_link',
-    ppt: '/supermarket.pdf',
+    ppt: '/supermarket_sales.pdf',
   },
   {
     title: 'HR Analytics Dashboard',
@@ -23,7 +23,7 @@ const dataProjects = [
     image: '/HR-dashboard.png',
     tags: ['Power BI'],
     repo: 'https://drive.google.com/drive/folders/1UAnSvOxBvntpRW1EQ4FrTyXqI4WXzAo3?usp=drive_link',
-    ppt: '/hr.pdf',
+    ppt: '/hr_analytics.pdf',
   },
   {
     title: 'Indonesia Stunting Prevalence',
@@ -31,7 +31,23 @@ const dataProjects = [
     image: '/stunting-dashboard.png',
     tags: ['Python', 'Power BI'],
     repo: 'https://drive.google.com/drive/folders/1VOaA_swDwQBMBx1EDvLHOpL4e8HwOuKt?usp=drive_link',
-    ppt: '/stunting.pdf',
+    ppt: '/stuntingg.pdf',
+  },
+  {
+    title: 'Bicycle Shop',
+    desc: 'Public health analytics project exploring stunting prevalence across Indonesian provinces from 2021–2024.',
+    image: '/bike.png',
+    tags: ['SQL Server', 'Power BI'],
+    repo: 'https://drive.google.com/drive/folders/1bPb8ZYqF6lJ9fEAPeB4q8kIrVPsIQq9I?usp=drive_linkk',
+    ppt: '/bike.pdf',
+  },
+  {
+    title: 'Uber Trip',
+    desc: 'Public health analytics project exploring stunting prevalence across Indonesian provinces from 2021–2024.',
+    image: '/uber.png',
+    tags: ['Python', 'Power BI'],
+    repo: 'https://drive.google.com/drive/folders/1kszwLQHOQOhsuSpLt5NGJc82YMAw7Mio?usp=drive_link',
+    ppt: '/uber.pdf',
   },
 ]
 
@@ -107,7 +123,7 @@ const ProjectGrid = ({ projects }: { projects: any[] }) => (
                 rel="noopener noreferrer"
                 className={styles.link}
               >
-                Key Analysis ↗
+                Full Deck ↗
               </a>
             )}
 

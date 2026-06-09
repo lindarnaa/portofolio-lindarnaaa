@@ -21,8 +21,8 @@ const certifications = [
     title: 'CCNAv7: Introduction to Networks ',
     issuer: 'Cisco Networking Academy',
     year: '2024',
-    image: '/CCNA_Intro.png',
-    file: '/CCNA_Intro.pdf',
+    image: '/network.png',
+    file: '/network.pdf',
     featured: true,
   },
   {
@@ -42,11 +42,19 @@ const certifications = [
     featured: true,
   },
   {
+    title: 'Introduction to IoT and Digital Transformation',
+    issuer: 'Cisco Networking Academy',
+    year: '2023',
+    image: '/iot.png',
+    file: '/iot.pdf',
+    featured: true,
+  },
+  {
     title: 'IT Essentials ',
     issuer: 'Cisco Networking Academy',
     year: '2023',
-    image: '/IT_Essentials.png',
-    file: '/IT_Essentials.pdf',
+    image: '/ites.png',
+    file: '/ites.pdf',
     featured: true,
   },
   {
